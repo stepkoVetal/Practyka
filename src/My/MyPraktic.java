@@ -274,7 +274,7 @@ class AllTheColorsOfTheRainbow {
  * results with your Web browser.
  */
 
-import java.util.*;
+//import java.util.*;
 
 /** The first Thinking in Java example program.
  * Displays a string and today's date.
@@ -283,10 +283,10 @@ import java.util.*;
  * @version 4.0
  */
 
-public class DocTest {
+class DocTest {
     /** Entry poing to class & application.
      * @param args array of string arguments
-     * @throws exceptions No exceptions thrown
+     * @throws //exceptions No exceptions thrown
      */
     public static void main(String[] args) {
         System.out.println("Hello, it's: ");
@@ -303,7 +303,7 @@ public class DocTest {
  */
 
 /** A class comment */
-public class Documentation1 {
+class Documentation1 {
     /** A field comment */
     public int i;
     /** A method comment */
@@ -315,7 +315,7 @@ public class Documentation1 {
 /* Run Documentation1.java, Documentation2.java and Documentation3.java
  * through Javadoc. Verify the resulting documentation with your Web browser.
  */
-import java.util.*;
+//import java.util.*;
 
 // object/Documentation2.java
 /**
@@ -325,7 +325,7 @@ import java.util.*;
  * </pre>
  */
 
-public class Documentation2 {
+class Documentation2 {
     Date d = new Date();
     void showDate() {
         System.out.println("Date = " + d);
@@ -337,7 +337,7 @@ public class Documentation2 {
 /* Run Documentation1.java, Documentation2.java and Documentation3.java
  * through Javadoc. Verify the resulting documentation with your Web browser.
  */
-import java.util.*;
+//import java.util.*;
 
 // object/Documentation3.java
 /**
@@ -349,7 +349,7 @@ import java.util.*;
  * </ol>
  */
 
-public class Documentation3 {
+class Documentation3 {
     public static void main(String[] args) {
         Date d = new Date();
         System.out.println("d = " + d);
@@ -359,7 +359,7 @@ public class Documentation3 {
 // object/Documentation4.java
 // TIJ4 Chapter Object, Exercise 14, page 90
 // Add an HTML list of items to the documentation in the previous exercise.
-import java.util.*;
+//import java.util.*;
 
 // object/Documentation4.java
 /**
@@ -380,7 +380,7 @@ import java.util.*;
  * </ol>
  */
 
-public class Documentation4 {
+class Documentation4 {
 
     /** Let's try a public field list
      * <ol>
@@ -442,7 +442,7 @@ public class Documentation4 {
  * Public class contained in file of the same name that includes main()
  */
 
-public class HelloDocTest {
+class HelloDocTest {
 
     /** main method executed by java
      */
@@ -506,7 +506,7 @@ class Tree {
 /** class to test construction of tree objects
  */
 
-public class Overloading {
+class Overloading {
     public static void main(String[] args) {
         for(int i = 0; i < 5; i++) {
             Tree t = new Tree(i);
